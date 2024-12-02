@@ -1,5 +1,5 @@
 {% set name = "datachain" %}
-{% set version = "0.7.2" %}
+{% set version = "0.7.7" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/datachain-{{ version }}.tar.gz
-  sha256: 7ccd5f8d2f32012c5cc7bf2f6e3ae4eb29013f99515b8423a1c34e00b4d7a694
+  sha256: f595b5456cc6474fe7a195478ae086635986c7ef3bc5d584acdeb263fe230786
 
 build:
   entry_points:
