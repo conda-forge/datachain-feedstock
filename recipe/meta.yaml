@@ -54,6 +54,7 @@ requirements:
     - platformdirs
     - dvc-studio-client >=0.21,<1
     - tabulate
+    - websockets
 
 test:
   imports:
