@@ -1,5 +1,5 @@
 {% set name = "datachain" %}
-{% set version = "0.8.13" %}
+{% set version = "0.9.0" %}
 
 package:
   name: {{ name|lower }}
@@ -7,7 +7,7 @@ package:
 
 source:
   url: https://pypi.org/packages/source/{{ name[0] }}/{{ name }}/datachain-{{ version }}.tar.gz
-  sha256: 5182a4a1889927242d4796585579429521df0e55baff7d2a81f1bfed0220d62b
+  sha256: 7c5a0ef65b8a4a3e5d9fa51ba560bba2dbbbf10df540aa15f6b6bb75268d67cf
 
 build:
   entry_points:
@@ -50,7 +50,7 @@ requirements:
     - msgpack-python >=1.0.4,<2
     - psutil
     - huggingface_hub
-    - iterative-telemetry >=0.0.9
+    - iterative-telemetry >=0.0.10
     - platformdirs
     - dvc-studio-client >=0.21,<1
     - tabulate
